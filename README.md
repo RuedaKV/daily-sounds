@@ -23,7 +23,7 @@ cd my-react-app
 npm start
 ```
 
-## Running the Back-end 
+## Connecting the Back-end 
 To connect the frontend to the back-end, you must either use the `package.json` file included in the repo or make the following adjustments.
 
 Add the following line as a main value.
