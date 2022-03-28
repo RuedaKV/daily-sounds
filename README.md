@@ -29,7 +29,7 @@ To connect the frontend to the back-end, you must either use the `package.json` 
 Add the following line as a main value.
 ```"proxy": "http://127.0.0.1:5000/"```
 
-Add the following line in ```"scripts"```
+Add the following line in ```"scripts"```: 
 ```"start-flask-api": "cd api && venv/bin/flask run"```
 
 You may run the back-end as follows:
