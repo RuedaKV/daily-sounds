@@ -38,5 +38,5 @@ npm start-flask-api
 ```
 
 ## Demo
-![app-gif](daily_sounds_gif.gif)
+![app-gif](daily_sounds_demo.gif)
 
