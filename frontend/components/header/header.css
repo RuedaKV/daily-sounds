@@ -1,0 +1,17 @@
+.songs-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0em;
+}
+
+.submit-container {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
+.submit-button {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 28%;
+}

@@ -1,0 +1,68 @@
+:root {
+  --main-color: #e6bccd;
+  --main-bg-color: #29274c;
+}
+
+.hidden {
+  display: none;
+}
+
+.token-form {
+  display: none;
+}
+
+.date-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-field {
+  width: 100%;
+  /* min-width: 15ch;
+  max-width: 30ch; */
+  border: 1px solid var(--main-color);
+  border-radius: 0.5em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  /* background-image: linear-gradient(to top, #f9f9f9, #fff 33%); */
+  color: var(--main-bg-color);
+  background-color: #f5dfe8;
+  margin: 0.5em;
+  text-align: center;
+  width: 20vw;
+  -webkit-appearance: button;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.submit-button {
+  border-radius: 1.2em;
+  border: 0.3em solid var(--main-color);
+  color: var(--main-bg-color);
+  cursor: pointer;
+  font-size: 3vmin;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+  width: 41%;
+  background-color: var(--main-color);
+}
+
+.submit-button:hover {
+  background: #f5dfe8;
+  border: 0.3em solid #f5dfe8;
+}

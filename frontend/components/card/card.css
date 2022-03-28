@@ -1,0 +1,67 @@
+/* :root {
+  --main-color: hsl(124, 67%, 69%);
+  --main-bg-color: #333;
+} */
+
+:root {
+  --main-color: #e6bccd;
+  --main-bg-color: #29274c;
+}
+
+/* :root {
+  --main-color: #ffeed6;
+  --main-bg-color: #2b061e;
+} */
+
+.card {
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+img {
+  border-radius: 1em 1em 0 0;
+  width: 100%;
+}
+
+.card-body {
+  padding: 2px 16px;
+  background-color: var(--main-color);
+  border-radius: 0 0 1em 1em;
+  font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 20vh;
+  color: var(--main-bg-color);
+}
+
+.card-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+}
+
+@media (min-width: 600px) {
+  .card-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card-body {
+  font-family: proxima_nova, "Helvetica Neue", Helvetica;
+}
+
+.card_song {
+  font-size: 1.5em;
+  margin-top: -0.1em;
+}
+
+.card_artist {
+  font-size: 1em;
+  margin-top: -1.5em;
+}
+
+.card_date {
+  font-size: 1em;
+  margin-top: -1em;
+}
