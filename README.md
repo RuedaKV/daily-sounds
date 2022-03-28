@@ -24,7 +24,7 @@ npm start
 ```
 
 ## Connecting the Back-end 
-To connect the frontend to the back-end, you must either use the `package.json` file included in the repo or make the following adjustments.
+To connect the frontend to the back-end, you must either use the `package.json` file included in the repo or make the following adjustments to the default 'package.json' created.
 
 Add the following line as a main value.
 ```"proxy": "http://127.0.0.1:5000/"```
