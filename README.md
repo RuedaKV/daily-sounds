@@ -36,3 +36,7 @@ You may run the back-end as follows:
 ```
 npm start-flask-api
 ```
+
+## Demo
+![app-gif](daily_sounds_gif.gif)
+
