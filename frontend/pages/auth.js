@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Banner } from "../components/banner/banner.js";
 import "./styles.css";
 
-const CLIENT_ID = "4fd8a28ac739475bbf9bc994a1e67dd3";
+const CLIENT_ID = ""
 const SPOTIFY_ENDPOINT = "https://accounts.spotify.com/authorize";
 const REDIRECT_URL = "http://localhost:3000/form";
 const SCOPES = [
